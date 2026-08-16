@@ -81,15 +81,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Dream Cafe — Cafe & Restaurant in Mirpur-1, Dhaka" },
+      { title: "Dream Cafe Mirpur — Cafe & Restaurant on Mazar Road, Mirpur-1" },
       {
         name: "description",
         content:
-          "Dream Cafe on Mazar Road, Mirpur-1, Dhaka. Pizza, pasta, Thai, fast food and coffee in a warm, welcoming cafe. Open daily 11:00 AM – 11:00 PM.",
+          "Dream Cafe is a warm cafe and restaurant in Mirpur-1, Dhaka serving pizza, pasta, Thai, fast food and coffee. Open every day 11:00 AM – 11:00 PM.",
       },
       { property: "og:site_name", content: "Dream Cafe" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Dream Cafe Mirpur — Cafe & Restaurant on Mazar Road, Mirpur-1" },
+      { name: "twitter:title", content: "Dream Cafe Mirpur — Cafe & Restaurant on Mazar Road, Mirpur-1" },
+      { property: "og:description", content: "Dream Cafe is a warm cafe and restaurant in Mirpur-1, Dhaka serving pizza, pasta, Thai, fast food and coffee. Open every day 11:00 AM – 11:00 PM." },
+      { name: "twitter:description", content: "Dream Cafe is a warm cafe and restaurant in Mirpur-1, Dhaka serving pizza, pasta, Thai, fast food and coffee. Open every day 11:00 AM – 11:00 PM." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7ed2b19fff66d54288e463cd70490257/id-preview-5fe38cfa--6d7a3fd1-c53f-45e8-bcb6-b2249948c45a.lovable.app-1786856685978.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7ed2b19fff66d54288e463cd70490257/id-preview-5fe38cfa--6d7a3fd1-c53f-45e8-bcb6-b2249948c45a.lovable.app-1786856685978.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -99,7 +105,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
     scripts: [
       {

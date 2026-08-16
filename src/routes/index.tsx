@@ -22,11 +22,11 @@ export const Route = createFileRoute("/")({
         content:
           "Dream Cafe is a warm cafe and restaurant in Mirpur-1, Dhaka serving pizza, pasta, Thai, fast food and coffee. Open every day 11:00 AM – 11:00 PM.",
       },
-      { property: "og:title", content: "Dream Cafe — Good Food. Great Moments." },
+      { property: "og:title", content: "Dream Cafe Mirpur — Cafe & Restaurant on Mazar Road, Mirpur-1" },
       {
         property: "og:description",
         content:
-          "A warm cafe in Mirpur-1, Dhaka for food, conversations and gatherings. Open daily 11 AM – 11 PM.",
+          "Dream Cafe is a warm cafe and restaurant in Mirpur-1, Dhaka serving pizza, pasta, Thai, fast food and coffee. Open every day 11:00 AM – 11:00 PM.",
       },
       { property: "og:url", content: "/" },
     ],
